@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_team_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team A" />
+
+    <TextView
+        android:id="@+id/tv_score_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="120" />
+
+    <Button
+        android:id="@+id/btn_add_1_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+1" />
+
+    <Button
+        android:id="@+id/btn_add_2_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+2" />
+
+    <Button
+        android:id="@+id/btn_add_3_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+3" />
+
+    <TextView
+        android:id="@+id/tv_team_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Team B" />
+
+    <TextView
+        android:id="@+id/tv_score_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="120" />
+
+    <Button
+        android:id="@+id/btn_add_1_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+1" />
+
+    <Button
+        android:id="@+id/btn_add_2_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+2" />
+
+    <Button
+        android:id="@+id/btn_add_3_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+3" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_undo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/baseline_arrow_back" />
+
+        <ImageView
+            android:id="@+id/iv_reset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            app:srcCompat="@drawable/baseline_loop" />
+    </LinearLayout>
+
+
+</LinearLayout>
